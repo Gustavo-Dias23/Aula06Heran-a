@@ -6,7 +6,15 @@ namespace Aula06Herança
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CNPJ gustavocnpj = new CNPJ();
+            gustavocnpj.cnpj= "Gustavo";
+            CPF gustavocpf = new CPF();
+            gustavocpf.cpf= "Gustavo";
+            gustavocpf.rg= "Gustavo";
+            Pessoa gustavo = new Pessoa();
+            gustavo.nome = "Gustavo";
+            Console.WriteLine(gustavo.Saudar());
+
         }
     }
 }

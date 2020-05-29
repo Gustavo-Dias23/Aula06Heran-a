@@ -2,9 +2,9 @@ namespace Aula06Herança
 {
     public class Pessoa
     {
-        string nome;
-        string Saudar(){
-            return "Saudações" +nome;
+        public string nome;
+        public string Saudar(){
+            return "Saudações " +nome+"!";
         }
     }
 }

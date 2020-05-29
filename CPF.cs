@@ -2,13 +2,11 @@ namespace Aula06Herança
 {
     public class CPF : Pessoa
     {
-        string cpf;
-        string rg;
+        public string cpf;
+        public string rg;
 
-        bool ValidarCPF(){
-            if(!""){
-                return true
+        public bool ValidarCPF(string cpf){
+            return true;
+            }
             }
         }
-    }
-}
