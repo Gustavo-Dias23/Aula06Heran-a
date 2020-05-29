@@ -6,7 +6,12 @@ namespace Aula06Herança
         public string rg;
 
         public bool ValidarCPF(string cpf){
-            return true;
+            if(cpf != " "){
+                return true ;
+            }
+            else{
+                return false;
             }
             }
-        }
+    }
+}

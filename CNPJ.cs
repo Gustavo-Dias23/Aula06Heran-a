@@ -4,7 +4,12 @@ namespace Aula06Herança
     {
         public string cnpj;
         public bool ValidarCNPJ(){
-            return true;
+            if(cnpj != " "){
+                return true ;
+            }
+            else{
+                return false;
+            }
         }
     }
 }
